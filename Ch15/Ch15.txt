@@ -1,0 +1,20 @@
+1.按位逻辑运算符：
+  （1）取反：~
+  （2）与：&
+  （3）或：|
+  （4）异或：^
+2.逻辑运算符的用法
+  （1）掩码
+      flags = flags & mask
+  （2）打开位（设置位）
+      flags = flags | mask
+  （3）关闭位（清空位）
+      flags = flags & ~mask
+  （4）切换位:打开已关闭的位或关闭已打开的位
+      flags = flags ^ mask
+3.移位运算符
+  符号：>>、<<
+  用法：
+    a. num >> n   num乘以2的n次幂
+    b. num << n   若num非负，num除以2的n次幂
+    
